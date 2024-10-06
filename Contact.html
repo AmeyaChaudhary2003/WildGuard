@@ -52,6 +52,7 @@
       border-radius: 25px;
       font-size: 1.1rem;
       transition: background-color 0.3s;
+      text-decoration: none;
     }
 
     .contact-btn:hover {
@@ -63,18 +64,24 @@
       padding: 15px;
       border-radius: 10px;
       margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .info-box a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+
+    .info-box a:hover {
+      text-decoration: none;
     }
 
     .info-box h5 {
       font-size: 1.2rem;
       font-weight: 600;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
       color: var(--pistachio);
-    }
-
-    .info-box p {
-      margin-bottom: 0;
-      font-size: 1rem;
     }
   </style>
 </head>
@@ -94,12 +101,12 @@
         <!-- Contact Information -->
         <div class="info-box">
           <h5>Email Us</h5>
-          <p>support@wildguard.com</p>
+          <a href="mailto:support@wildguard.com" class="btn contact-btn">Email Us</a>
         </div>
 
         <div class="info-box">
           <h5>Call Us</h5>
-          <p>+91 123-4567-089</p>
+          <a href="tel:+911234567089" class="btn contact-btn">Call Us</a>
         </div>
 
         <!-- Contact Form -->
